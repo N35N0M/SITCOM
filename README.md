@@ -13,8 +13,8 @@ _Goals:_
 
 ## Plan
 The Sitcom machine will be divided into two functional units:
-* Arduino Uno: Will detect a person who is either leaving or entering the room, and report every detection to the raspberry pi through its serial port. Detection is realized in this case with a Ultrasonic Sensor (HC-SR04). 
-* Raspberry Pi: When it receives a message from the Uno, it will - in some way or another - choose a tune that it will play through its AUX-port.
+* Arduino Uno: Will detect a person who is either leaving or entering the room, and report every detection to the raspberry pi through its serial out port. Detection is realized in this case with a Ultrasonic Sensor (HC-SR04). 
+* Raspberry Pi: When it receives a message from the Uno, it will - in some way or another - choose a tune that it will play through its AUX-port. Can also report back to the arduino if need be.
 
 The relationship between the two is illustrated in figure 1:
 
