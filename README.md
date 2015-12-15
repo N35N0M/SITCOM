@@ -1,7 +1,7 @@
 # SITCOM
 ## [ARDUINO] The Sitcom Machine
 
-_Purpose_: To construct a device that plays a randomly selected tune every time someone walks in the door.
+_Purpose_: To construct a device that plays a randomly selected tune every time someone walks in or out the door.
 
 _Goals:_
 * Learn basic markdown
