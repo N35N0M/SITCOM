@@ -15,7 +15,7 @@ _Goals:_
 Several implementations of a Sitcom Machine already exist. 
 
 Some examples include:
-* Vimeo user Jordan Burnett [uses some variation of a laser trap to trigger the applause.](https://vimeo.com/41861362)
+* Vimeo user Jordan Burnett uses [some variation of a laser trap to trigger the applause.](https://vimeo.com/41861362)
 * Youtube user caliixxs uses [an IR-motion sensor and a wave shield on the arduino to play audio.](https://www.youtube.com/watch?v=j8D8YjgnGR4)
 
 
