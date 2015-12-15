@@ -12,3 +12,6 @@ _Goals:_
 * Learning how to make the single-board computer Raspberry Pi and the popular microcontroller Arduino Uno talk together.
 
 ## Plan
+
+![Figure 1: Drawn schematic front](https://github.com/N35N0M/SITCOM/blob/master/images/Figure1.jpg)
+![Figure 2: Drawn schematic side](https://github.com/N35N0M/SITCOM/blob/master/images/Figure2.jpg)
