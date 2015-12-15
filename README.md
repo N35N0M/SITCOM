@@ -19,4 +19,8 @@ The Sitcom machine will be divided into two functional units:
 The relationship between the two is illustrated in figure 1:
 
 ![Figure 1: Drawn schematic front](https://github.com/N35N0M/SITCOM/blob/master/images/Figure1.jpg)
+
+In our implementation, we wish to make it possible for the system to detect whether the person is entering or leaving home, in order to make the Raspberry Pi play different types of jingles depending on entering/exiting, day/night, first out/last inm etc.
+
+As long as the ultrasonic sensor is mounted correctly, it should be no problem to detect whether the person is moving away or towards the door, as it can record several distance measurements over time. The arduino will use these measurements to decide where the person (or UFO (or UWO)) is headed.
 ![Figure 2: Drawn schematic side](https://github.com/N35N0M/SITCOM/blob/master/images/Figure2.jpg)
