@@ -40,3 +40,16 @@ In our implementation, we wish to make it possible for the system to detect whet
 
 As long as the ultrasonic sensor is mounted correctly, it should be no problem to detect whether the person is moving away or towards the door, as it can record several distance measurements over time. The arduino will use these measurements to decide where the person (or UFO (or UWO)) is headed.
 ![Figure 2: Drawn schematic side](https://github.com/N35N0M/SITCOM/blob/master/images/Figure2.jpg)
+
+## The execution
+A work in progress.
+
+1-1 Build the arduinosetup and tune the sensor to accurately detect a person walking towards or from the door, sending all detections with its own code out by serial
+1-2 Setup the raspberry pi with some sort of music setup, and make it possible for the raspberry to receive signals from the Uno
+1-3 Connect the parts together
+2-0 Test the setup, confirm that it will play some sound every time a detection takes place.
+// First version is now complete
+3-1 Make several subfolders for entering, exiting, and subfolders within that the system can choose from. Several times of day? Or should it vary by season? 
+4-1 Remote control functionality with the arduino remote included in the standard kit?
+5-1 API for setting a special tune on a special time/date (for example a doom song on exam-day)
+6-1 Couple it to our own SMS-server so it notifies of specific events. For example when we expect no one to be home (during holidays) as a weak form for intruder detection?
