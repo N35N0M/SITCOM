@@ -18,6 +18,13 @@ Some examples include:
 * Vimeo user Jordan Burnett uses [some variation of a laser trap to trigger the applause.](https://vimeo.com/41861362)
 * Youtube user caliixxs uses [an IR-motion sensor and a wave shield on the arduino to play audio.](https://www.youtube.com/watch?v=j8D8YjgnGR4)
 
+There are two main problems to solve when making a Sitcom Machine:
+1. Detect a pass-by
+2. Play music
+
+1. Most implementation use some sort of IR-sensor, ultrasonic sensor or other means to create a fancy tripwire that makes the device play sound immediately when the user passes the trap. Other implementations (usually for making a door alarm or the like) requires some trickery with door locks and the like. Considering that our landlord won't be too happy with any permanent alterations, we will stick with a "trip"trap-solution
+
+2. Usually, most detection is done by a microcontroller, and most microcontrollers aren't too happy about playing sounds. At our level (which isn't that high at all, FYI) we can make a buzzer buzz different tones (but it requires alot of coding, and manually for every tune we wish that the machine will play. We plan on adding alot) or we can buy a wave shield and use it to play sounds (an elegant, simple way to solve the problem, but lacks the extensive control we want with the variability of the tunes to be played). We will go for a arduino-to-raspberry approach, where the arduino detects and the raspberry acts by playing sounds. Utilizing the internal clock and many other functions of the raspberry, we can create alot of unique sound events, and it can easily be built upon.
 
 
 ## Plan
